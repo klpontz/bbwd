@@ -1,0 +1,175 @@
+@import url('reset.css');
+
+@import url('lavish.css');
+
+@import url("http://fonts.googleapis.com/css?family=Rokkitt:400,700");
+/*   
+Author: Brown Bag Web Design
+Author URI: http://brownbagwebdesign.com/
+Version: 1.0
+.
+This work is released under GNU General Public License, version 2 (GPL).
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+Thanks for impress.js, Bartek Szopka (@bartaz) and Twitter'S Bootstrap!
+*/
+/* ###################################################
+		
+  IMPORT
+  Lavish.css stylesheet and any other sweet styles!
+  URLs are imported at the top of the page		
+
+   ################################################### */
+/* ###################################################
+		
+  GLOBAL VALUES		
+  Copy the values directly from your lavish.css file 
+  Look at the Less file to see the variables.
+		
+   ################################################### */
+/* ###################################################
+		
+  Bass CSS
+		
+   ################################################### */
+body,
+html {
+  background-image: url('../img/bkgd.jpg');
+}
+h1 {
+  font-weight: bold;
+  font-size: 51px;
+  line-height: 1.1em;
+  text-shadow: 0 -1px 0 #1b270e, 0 0 2px #1b270e;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  transition: all .2s linear;
+}
+a:hover {
+  text-decoration: none;
+}
+p#blurb {
+  font-size: 30px;
+  line-height: 1.2em;
+}
+/* ###################################################
+		
+  Header
+		
+   ################################################### */
+div#header h1 {
+  font-family: 'Rokkitt', serif;
+  font-size: 204px;
+  font-weight: 700;
+  line-height: .9em;
+  text-shadow: 0 -1px 0 #f89406, 0 0 2px #f89406;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  transition: all .2s linear;
+}
+/* ###################################################
+		
+  Images
+		
+   ################################################### */
+.thumbnails {
+  margin-top: 10px;
+}
+.thumbnail {
+  margin-bottom: 10px;
+  border: 1px solid #b2c5da;
+}
+/* ###################################################
+		
+  SLIDES
+		
+   ################################################### */
+.slide {
+  width: 637px;
+  padding: 55px;
+}
+/* fade out inactive slides */
+.step {
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -ms-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+.step:not(.active) {
+  opacity: 0.3;
+}
+/* ###################################################
+		
+  Hint on First Slide
+		
+   ################################################### */
+#hint {
+  margin-top: 626px;
+  margin-left: 40px;
+  display: none;
+}
+.ahint {
+  font-size: 25px;
+  line-height: 1.2em;
+  color: #324c17;
+  width: 156px;
+  height: auto;
+  margin-top: 6px;
+  margin-left: 34%;
+  text-shadow: 0 -1px 0 #535646, 0 0 2px #535646;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  transition: all .2s linear;
+  position: relative;
+}
+.bag {
+  margin-left: 47%;
+  width: auto;
+  height: auto;
+}
+/* ###################################################
+		
+  Thanks and Goodbye!
+		
+   ################################################### */
+blockquote {
+  border-left: 5px solid #f89406;
+}
+blockquote h1 {
+  text-shadow: 0 -1px 0 #f89406, 0 0 2px #f89406;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  transition: all .2s linear;
+}
+.goodbye {
+  width: 297px;
+}
+img.bye {
+  margin-top: 10px;
+}
+/* ###################################################
+		
+  FallBack Message for Unsupported Browsers
+		
+   ################################################### */
+.fallback-message {
+  display: none;
+  width: 780px;
+  padding: 10px 10px 0;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 1px solid #f89406;
+  background: #b2c5da;
+}
+.fallback-message p {
+  margin-bottom: 10px;
+}
+.impress-not-supported .step {
+  position: relative;
+  opacity: 1;
+  margin: 20px auto;
+}
+.impress-not-supported .fallback-message {
+  display: block;
+}

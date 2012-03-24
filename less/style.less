@@ -1,0 +1,220 @@
+/*   
+Author: Brown Bag Web Design
+Author URI: http://brownbagwebdesign.com/
+Version: 1.0
+.
+This work is released under GNU General Public License, version 2 (GPL).
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+Thanks for impress.js, Bartek Szopka (@bartaz) and Twitter'S Bootstrap!
+*/
+
+/* ###################################################
+		
+  IMPORT
+  Lavish.css stylesheet and any other sweet styles!
+  URLs are imported at the top of the page		
+
+   ################################################### */
+@import url('reset.css');
+@import url('lavish.css');
+@import url("http://fonts.googleapis.com/css?family=Rokkitt:400,700");
+
+
+/* ###################################################
+		
+  GLOBAL VALUES		
+  Copy the values directly from your lavish.css file 
+  Look at the Less file to see the variables.
+		
+   ################################################### */
+// Links
+@linkColor:             #5D6828;
+@linkColorHover:        @grayLighter;
+
+// Grays
+@black:                 #1B270E;
+@grayDark:              #324C17; 
+@grayDarker:            darken(@grayDark, 10%);
+@gray:                  #535646;
+@grayLight:             #8D8F47;
+@grayLighter:           #547D8F;
+@white:                 #B2C5DA;
+@whitest:				#f5f5f5;
+
+// Accent colors
+@blue:                  #049cdb;
+@blueDark:              #0064cd;
+@green:                 #46a546;
+@red:                   #9d261d;
+@yellow:                #ffc40d;
+@orange:                #f89406;
+@pink:                  #c3325f;
+@purple:                #7a43b6;
+
+// Typography
+@baseFontSize:          13px;
+@baseFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+@baseLineHeight:        18px;
+@textColor:             @grayDark;
+
+// Buttons
+@primaryButtonBackground:    @linkColor;
+
+
+/* ###################################################
+		
+  Bass CSS
+		
+   ################################################### */
+body, html {
+  background-image:url('../img/bkgd.jpg');
+}
+h1 {
+  font-weight: bold;
+  font-size: 51px;
+  line-height: 1.1em; 
+  text-shadow: 0 -1px 0 @black, 0 0 2px @black;
+    -webkit-transition: all .2s linear;
+       -moz-transition: all .2s linear;
+            transition: all .2s linear;
+}
+a:hover {
+  text-decoration:none;
+}
+p#blurb {
+  font-size:30px;
+  line-height:1.2em;
+}
+
+/* ###################################################
+		
+  Header
+		
+   ################################################### */
+div#header h1 {
+  font-family: 'Rokkitt', serif;
+  font-size:204px;
+  font-weight: 700;
+  line-height: .9em;
+  text-shadow: 0 -1px 0 @orange, 0 0 2px @orange;
+    -webkit-transition: all .2s linear;
+       -moz-transition: all .2s linear;
+            transition: all .2s linear;
+}
+/* ###################################################
+		
+  Images
+		
+   ################################################### */
+.thumbnails {
+  margin-top:10px;
+}
+
+.thumbnail {
+  margin-bottom:10px;
+  border:1px solid @white;
+}
+/* ###################################################
+		
+  SLIDES
+		
+   ################################################### */
+.slide {
+  width:637px;
+  padding:55px;
+}
+/* fade out inactive slides */
+
+.step {
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+}
+
+.step:not(.active) {
+    opacity: 0.3;
+}
+
+/* ###################################################
+		
+  Hint on First Slide
+		
+   ################################################### */
+// To reveal the hint message change the display attribute.
+#hint {
+  margin-top: 626px;
+  margin-left: 40px;
+  display:none;
+}
+.ahint {
+  font-size:25px;
+  line-height:1.2em;
+  color:@textColor;
+  width:156px;
+  height:auto;
+  margin-top:6px;
+  margin-left:34%;
+  text-shadow: 0 -1px 0 @gray, 0 0 2px @gray;
+    -webkit-transition: all .2s linear;
+       -moz-transition: all .2s linear;
+            transition: all .2s linear;position: relative;
+}
+.bag {
+  margin-left:47%;
+  width:auto;
+  height:auto;
+}
+
+/* ###################################################
+		
+  Thanks and Goodbye!
+		
+   ################################################### */
+blockquote {
+  border-left: 5px solid @orange;
+  h1 {
+    text-shadow: 0 -1px 0 @orange, 0 0 2px @orange;
+	            -webkit-transition: all .2s linear;
+    	        -moz-transition: all .2s linear;
+	            transition: all .2s linear;
+  }
+}
+.goodbye {
+  width: 297px;
+}
+img.bye {
+ margin-top:10px;
+}
+/* ###################################################
+		
+  FallBack Message for Unsupported Browsers
+		
+   ################################################### */
+
+.fallback-message {
+    display: none;
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid @orange;
+    background: @white;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+
+.impress-not-supported .step {
+    position: relative;
+    opacity: 1;
+    margin: 20px auto;
+}
+
+.impress-not-supported .fallback-message {
+    display: block;
+}
+
