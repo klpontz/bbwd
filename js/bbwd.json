@@ -3,54 +3,63 @@
     "title": "Sebastian Parker Furniture Design",
 	"url": "http://www.sebastianparker.com",
 	"linkText": "www.sebastianparker.com",
+	"image": "img/sebpark.jpg",
     "description": "Sebastian Parker Furniture Design is a San Francisco based studio and wood shop that creates custom furniture for residential and commercial clients."
   },
   "eastwoodsf": {
     "title": "Eastwood Development",
 	"url": "http://www.eastwoodsf.com",
 	"linkText": "www.eastwoodsf.com",
-    "description": "Eastwood Development Inc. is a full service General Contracting Company located in San Francisco, servicing the entire Bay Area."
+	"image": "img/eastwood.jpg",
+    "description": "Eastwood Development Inc. is a full service general contracting company located in San Francisco, servicing the entire Bay Area."
   },
   "mosquitosf": {
 	"title": "SF Mosquito Abatement Courier Team",
 	"url": "http://www.mosquitosf.com",
 	"linkText": "www.mosquitosf.com",
-    "description": "Biking and walking through the streets of San Francisco, The SF Mosquito Abatement Courier Team provides a unique public service, we fight the mosquitoes bugging the residents of the City and County of San Francisco to keep all of us healthy."
+	"image": "img/macteam.jpg",
+    "description": "Biking and walking through the streets of San Francisco, The SF Mosquito Abatement Courier Team provides a unique public service, they fight the mosquitoes bugging the residents of the City and County of San Francisco to keep all of us healthy."
   },
   "sfsupplycloset": {
 	"title": "The Supply Closet", 
 	"url": "http://www.sfsupplycloset.com/",
 	"linkText": "www.sfsupplycloset.com",
+	"image": "img/supplycloset.jpg",	
     "description": "San Francisco's best resource for locally operated and warehoused safety and office supplies."
   },
   "themorningafterpodcast": {
 	"title": "The Morning After ... Podcast",
 	"url": "http://themorningafterpodcast.com/",
 	"linkText": "www.themorningafterpodcast.com",
-    "description": "The Morning After…Podcast features humorous, insightful conversations about pornography between two comedians – Eli Olsberg and Jake Weisman – and a variety of porn stars"
+	"image": "img/morning.jpg",	
+    "description": "The Morning After…Podcast features humorous, insightful conversations about pornography between two comedians – Eli Olsberg and Jake Weisman – and a variety of porn stars and stand-up comedians."
   },
   "pestec": {
 	"title": "Pestec Integrated Pest Management",
 	"url": "http://www.pestec.net/",
 	"linkText": "www.pestec.com",
-    "description": "We provide pest control services using integrated pest management throughout the San Francisco Bay Area and Northern California."
+	"image": "img/pestec.jpg",	
+    "description": "Pestec provides pest control services using integrated pest management throughout the San Francisco Bay Area and Northern California."
   },
   "johncampbells": {
 	"title": "John Campbell&#39;s Irish Bakery",
 	"url": "http://www.johncampbells.com/",
 	"linkText": "www.johncampbells.com",
-    "description": "John Campbell, Journeyman Baker from Belfast with more than thirty years of experience, has come to the Bay Area."
+	"image": "img/campbell.jpg",	
+    "description": "John Campbell, journeyman baker from Belfast with more than thirty years of experience, has come to the Bay Area to bake delicious treats."
   },
   "tahoecampatv": {
 	"title": "Tahoe Camp ATV", 
 	"url": "http://www.tahoecampatv.com/",
 	"linkText": "www.tahoecampatv.com",
-    "description": "A full-service, Tahoe-based adventure company specializing in ATV tours, camping, canoeing and hiking."
+	"image": "img/tahoeatv.jpg",	
+    "description": "A full-service, Tahoe-based adventure company specializing in ATV tours, camping, canoeing, and hiking."
   },
   "sfie": {
 	"title": "Coming Soon",
 	"url": "javascript:void[0]",
 	"linkText": "www.sfie.net",
-    "description": "San Francisco Institute of English is an English language school in San Francisco, and we are stoked to be working with this non-profit school, updating there web site and systems. We are even more stoked to be building a WordPress theme that uses Twitter's Bootstrap 2.0 and lavish.css!"
+	"image": "img/sfie.jpg",
+    "description": "San Francisco Institute of English is a non-profit language school in San Francisco, and we are stoked to be updating there website and systems. We are even more stoked to be building a WordPress theme that uses Twitter's Bootstrap 2.0 and lavish.css!"
   }
 }

@@ -12,6 +12,10 @@ $(document).ready(function() {
         if (key == "linkText") {
           $('a.' + clientId).html(val);
         }
+        if (key == "image") {
+          $('img.' + clientId).attr("src" , val);
+		  $('img.' + clientId).attr("alt" , "Home Page");
+        }
         if (key == "description") {
           $('p.' + clientId).html(val);
         }
