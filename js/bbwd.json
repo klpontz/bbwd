@@ -8,24 +8,31 @@
     "description": "Eastwood Development Inc. is a full service General Contracting Company located in San Francisco, servicing the entire Bay Area."
   },
   "mosquitosf": {
+	"title": "SF Mosquito Abatement Courier Team",
     "description": "Biking and walking through the streets of San Francisco, The SF Mosquito Abatement Courier Team provides a unique public service, we fight the mosquitoes bugging the residents of the City and County of San Francisco to keep all of us healthy."
   },
   "sfsupplycloset": {
+	"title": "The Supply Closet",
     "description": "San Francisco's best resource for locally operated and warehoused safety and office supplies."
   },
   "themorningafterpodcast": {
+	"title": "The Morning After ... Podcast",
     "description": "The Morning After…Podcast features humorous, insightful conversations about pornography between two comedians – Eli Olsberg and Jake Weisman – and a variety of porn stars"
   },
   "pestec": {
+	"title": "Pestec Integrated Pest Management",  
     "description": "We provide pest control services using integrated pest management throughout the San Francisco Bay Area and Northern California."
   },
   "johncampbells": {
+	"title": "John Campbell&#39;s Irish Bakery",
     "description": "John Campbell, Journeyman Baker from Belfast with more than thirty years of experience, has come to the Bay Area."
   },
   "tahocampatv": {
+	"title": "Tahoe Camp ATV",
     "description": "A full-service, Tahoe-based adventure company specializing in ATV tours, camping, canoeing and hiking."
   },
   "sfie": {
+	"title": "Coming Soon",
     "description": "San Francisco Institute of English is an English language school in San Francisco, and we are stoked to be working with this non-profit school, updating there web site and systems. We are even more stoked to be building a WordPress theme that uses Twitter's Bootstrap 2.0 and lavish.css!"
   }
 }
